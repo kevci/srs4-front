@@ -2,10 +2,10 @@ import React from 'react';
 import {Link, RouteComponentProps } from '@reach/router';
 
 const SignUp: React.FC<RouteComponentProps> = () => {
-    return (
-      <>
-      </>
-    );
-  }
+  return (
+    <>
+    </>
+  );
+}
   
   export default SignUp;
