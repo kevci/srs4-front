@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link, RouteComponentProps } from '@reach/router';
 
-
 const DeckList: React.FC<RouteComponentProps> = () => {
 let decks = {};
 fetch('<INSERT TEST URL>', {

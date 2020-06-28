@@ -19,3 +19,5 @@ const SrsSession: React.FC<RouteComponentProps> = () => {
     <Link to='home'>Back to Home</Link>
   );
 }
+
+export default SrsSession;

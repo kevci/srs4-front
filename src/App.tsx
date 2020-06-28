@@ -3,6 +3,8 @@ import { Router, Link, RouteComponentProps } from '@reach/router';
 
 import './App.css';
 import Landing from './Components/Landing';
+import Login from './Components/Login';
+import SignUp from './Components/SignUp';
 import Home from './Components/Home';
 import AddCards from './Components/AddCards';
 import AddDeck from './Components/AddDeck';
@@ -14,6 +16,8 @@ function App() {
   return (
     <Router>
       <Landing path='/' />
+      <Login path='login' />
+      <SignUp path='sign_up' />
       <Home path='home' />
       <Deck path='deck' />
       <AddDeck path='add_deck' />
